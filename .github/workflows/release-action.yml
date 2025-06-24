@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "migrations-semver/*.sql"
 
 env:
   BYTEBASE_URL: https://demo.bytebase.com
