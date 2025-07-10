@@ -37,7 +37,7 @@ jobs:
         uses: actions/checkout@v4
       - name: rollout
         env:
-          BYTEBASE_TARGETS: "instances/dev-instance/databases/dev"
+          BYTEBASE_TARGETS: "instances/dev/databases/dev"
           FILE_PATTERN: "migrations-semver/*.sql"
           BYTEBASE_OUTPUT: ${{ runner.temp }}/bytebase-metadata.json
         run: |
