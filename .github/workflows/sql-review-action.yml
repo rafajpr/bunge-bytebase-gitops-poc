@@ -23,7 +23,7 @@ jobs:
             BYTEBASE_URL: https://71f0441fc48c.ngrok-free.app
             BYTEBASE_SERVICE_ACCOUNT: bunge-poc@service.bytebase.com
             BYTEBASE_SERVICE_ACCOUNT_SECRET: ${{ secrets.BYTEBASE_SERVICE_ACCOUNT_SECRET }}
-            BYTEBASE_PROJECT: "projects/bunge-poc"
+            BYTEBASE_PROJECT: "projects/gitops-poc"
             BYTEBASE_TARGETS: "instances/dev/databases/dev"
             FILE_PATTERN: "migrations-semver/*.sql"
         run: |
